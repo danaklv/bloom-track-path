@@ -60,7 +60,7 @@ export default {
         'gradient-forest': 'var(--gradient-forest)',
         'gradient-earth': 'var(--gradient-earth)',
         'gradient-sky': 'var(--gradient-sky)',
-        'gradient-sunrise': 'var(--gradient-sunrise)',
+        'gradient-accent': 'var(--gradient-accent)',
       },
       borderRadius: {
         lg: "var(--radius)",

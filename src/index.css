@@ -8,53 +8,53 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Eco theme - nature inspired palette */
-    --background: 120 20% 97%;
-    --foreground: 150 25% 15%;
+    /* Dark forest theme - cold, evergreen palette */
+    --background: 140 15% 6%;
+    --foreground: 100 10% 89%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 150 25% 15%;
+    --card: 135 9% 11%;
+    --card-foreground: 100 10% 89%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 150 25% 15%;
+    --popover: 135 9% 11%;
+    --popover-foreground: 100 10% 89%;
 
-    /* Forest green primary */
-    --primary: 142 76% 36%;
-    --primary-foreground: 0 0% 100%;
+    /* Deep evergreen primary */
+    --primary: 151 36% 17%;
+    --primary-foreground: 100 10% 89%;
     
-    /* Earth tones secondary */
-    --secondary: 30 25% 85%;
-    --secondary-foreground: 150 25% 15%;
+    /* Muted moss secondary */
+    --secondary: 128 27% 34%;
+    --secondary-foreground: 100 10% 89%;
 
-    --muted: 120 15% 92%;
-    --muted-foreground: 150 10% 45%;
+    --muted: 140 12% 15%;
+    --muted-foreground: 100 8% 60%;
 
-    /* Sky blue accent */
-    --accent: 200 90% 55%;
-    --accent-foreground: 0 0% 100%;
+    /* Cold cyan-blue accent */
+    --accent: 167 37% 57%;
+    --accent-foreground: 140 15% 6%;
 
     --destructive: 0 72% 51%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 100 10% 89%;
 
-    --border: 120 15% 88%;
-    --input: 120 15% 88%;
-    --ring: 142 76% 36%;
+    --border: 140 10% 20%;
+    --input: 140 10% 20%;
+    --ring: 167 37% 57%;
 
     --radius: 1rem;
 
     /* Success green for achievements */
-    --success: 142 76% 36%;
-    --success-foreground: 0 0% 100%;
+    --success: 128 27% 34%;
+    --success-foreground: 100 10% 89%;
 
     /* Warning for alerts */
     --warning: 45 93% 47%;
-    --warning-foreground: 0 0% 100%;
+    --warning-foreground: 140 15% 6%;
 
-    /* Gradients - nature inspired */
-    --gradient-forest: linear-gradient(135deg, hsl(142, 76%, 36%) 0%, hsl(150, 60%, 50%) 100%);
-    --gradient-earth: linear-gradient(135deg, hsl(30, 40%, 70%) 0%, hsl(142, 50%, 45%) 100%);
-    --gradient-sky: linear-gradient(135deg, hsl(200, 90%, 55%) 0%, hsl(142, 76%, 36%) 100%);
-    --gradient-sunrise: linear-gradient(135deg, hsl(45, 93%, 47%) 0%, hsl(30, 90%, 55%) 100%);
+    /* Gradients - cold forest tones */
+    --gradient-forest: linear-gradient(135deg, hsl(151, 36%, 17%) 0%, hsl(128, 27%, 34%) 100%);
+    --gradient-earth: linear-gradient(135deg, hsl(140, 12%, 15%) 0%, hsl(128, 27%, 34%) 100%);
+    --gradient-sky: linear-gradient(135deg, hsl(167, 37%, 57%) 0%, hsl(151, 36%, 17%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(167, 37%, 57%) 0%, hsl(128, 27%, 34%) 100%);
   }
 }
 
