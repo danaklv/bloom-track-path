@@ -1,6 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Leaf, Menu, User, Trophy, Activity, Users, MapPin, Heart, Info } from 'lucide-react';
+import { Leaf, Menu, User, Trophy, Activity, Users, MapPin, Heart, Info, Apple } from 'lucide-react';
 import { useAuth } from '@/contexts/AuthContext';
+import appleLogo from '@/assets/apple-logo.png';
 import { Button } from '@/components/ui/button';
 import {
   DropdownMenu,
@@ -33,10 +34,10 @@ export const Navbar = () => {
       <div className="container flex h-16 items-center px-4">
         {/* Logo */}
         <Link to="/dashboard" className="flex items-center space-x-2 mr-8">
-          <div className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-forest">
-            <Leaf className="h-6 w-6 text-primary-foreground" />
+          <div className="flex items-center justify-center w-10 h-10 rounded-full bg-white shadow-sm border-2 border-primary/20">
+            <img src={appleLogo} alt="EcoTrack" className="w-8 h-8 object-contain" />
           </div>
-          <span className="text-xl font-bold bg-gradient-forest bg-clip-text text-transparent">
+          <span className="text-xl font-bold text-primary">
             EcoTrack
           </span>
         </Link>

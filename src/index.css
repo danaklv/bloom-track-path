@@ -50,6 +50,11 @@ All colors MUST be HSL.
     --warning: 45 93% 47%;
     --warning-foreground: 0 0% 10%;
 
+    /* Apple red accent */
+    --apple-red: 0 85% 55%;
+    --apple-red-dark: 0 75% 45%;
+    --apple-green: 140 70% 35%;
+
     /* Gradients with primary teal */
     --gradient-forest: linear-gradient(135deg, hsl(170, 100%, 21%) 0%, hsl(170, 80%, 35%) 100%);
     --gradient-earth: linear-gradient(135deg, hsl(0, 0%, 96%) 0%, hsl(170, 100%, 96%) 100%);
