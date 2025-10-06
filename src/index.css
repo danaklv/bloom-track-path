@@ -8,53 +8,53 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Dark forest theme - cold, evergreen palette */
-    --background: 140 15% 6%;
-    --foreground: 100 10% 89%;
+    /* Clean modern theme with teal primary (#006D5B) */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 10%;
 
-    --card: 135 9% 11%;
-    --card-foreground: 100 10% 89%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
 
-    --popover: 135 9% 11%;
-    --popover-foreground: 100 10% 89%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
 
-    /* Deep evergreen primary */
-    --primary: 151 36% 17%;
-    --primary-foreground: 100 10% 89%;
+    /* Primary teal color #006D5B */
+    --primary: 170 100% 21%;
+    --primary-foreground: 0 0% 100%;
     
-    /* Muted moss secondary */
-    --secondary: 128 27% 34%;
-    --secondary-foreground: 100 10% 89%;
+    /* Light secondary */
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 10%;
 
-    --muted: 140 12% 15%;
-    --muted-foreground: 100 8% 60%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
 
-    /* Cold cyan-blue accent */
-    --accent: 167 37% 57%;
-    --accent-foreground: 140 15% 6%;
+    /* Accent teal variant */
+    --accent: 170 100% 96%;
+    --accent-foreground: 170 100% 21%;
 
     --destructive: 0 72% 51%;
-    --destructive-foreground: 100 10% 89%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 140 10% 20%;
-    --input: 140 10% 20%;
-    --ring: 167 37% 57%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 170 100% 21%;
 
     --radius: 1rem;
 
-    /* Success green for achievements */
-    --success: 128 27% 34%;
-    --success-foreground: 100 10% 89%;
+    /* Success green */
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
 
-    /* Warning for alerts */
+    /* Warning */
     --warning: 45 93% 47%;
-    --warning-foreground: 140 15% 6%;
+    --warning-foreground: 0 0% 10%;
 
-    /* Gradients - cold forest tones */
-    --gradient-forest: linear-gradient(135deg, hsl(151, 36%, 17%) 0%, hsl(128, 27%, 34%) 100%);
-    --gradient-earth: linear-gradient(135deg, hsl(140, 12%, 15%) 0%, hsl(128, 27%, 34%) 100%);
-    --gradient-sky: linear-gradient(135deg, hsl(167, 37%, 57%) 0%, hsl(151, 36%, 17%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(167, 37%, 57%) 0%, hsl(128, 27%, 34%) 100%);
+    /* Gradients with primary teal */
+    --gradient-forest: linear-gradient(135deg, hsl(170, 100%, 21%) 0%, hsl(170, 80%, 35%) 100%);
+    --gradient-earth: linear-gradient(135deg, hsl(0, 0%, 96%) 0%, hsl(170, 100%, 96%) 100%);
+    --gradient-sky: linear-gradient(135deg, hsl(170, 100%, 21%) 0%, hsl(170, 60%, 50%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(170, 100%, 21%) 0%, hsl(170, 100%, 30%) 100%);
   }
 }
 
