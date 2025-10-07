@@ -15,6 +15,7 @@ import Dashboard from "./pages/Dashboard";
 import EcoActions from "./pages/EcoActions";
 import Leaderboard from "./pages/Leaderboard";
 import Profile from "./pages/Profile";
+import EditProfile from "./pages/EditProfile";
 import PlaceholderPage from "./pages/PlaceholderPage";
 import NotFound from "./pages/NotFound";
 
@@ -38,6 +39,7 @@ const App = () => (
             <Route path="/eco-actions" element={<ProtectedRoute><EcoActions /></ProtectedRoute>} />
             <Route path="/leaderboard" element={<ProtectedRoute><Leaderboard /></ProtectedRoute>} />
             <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
+            <Route path="/profile/edit" element={<ProtectedRoute><EditProfile /></ProtectedRoute>} />
             
             {/* Placeholder Routes */}
             <Route path="/feed" element={<ProtectedRoute><PlaceholderPage title="Eco Feed" description="Discover eco news and updates from the community" /></ProtectedRoute>} />
