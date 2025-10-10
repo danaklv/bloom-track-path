@@ -61,6 +61,10 @@ export default {
         'gradient-earth': 'var(--gradient-earth)',
         'gradient-sky': 'var(--gradient-sky)',
         'gradient-accent': 'var(--gradient-accent)',
+        'gradient-day-sky': 'var(--gradient-day-sky)',
+        'gradient-night-sky': 'var(--gradient-night-sky)',
+        'gradient-dawn-sky': 'var(--gradient-dawn-sky)',
+        'gradient-dusk-sky': 'var(--gradient-dusk-sky)',
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -84,10 +88,40 @@ export default {
             height: "0",
           },
         },
+        "float": {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-20px)" },
+        },
+        "drift": {
+          "0%": { transform: "translateX(0px)" },
+          "100%": { transform: "translateX(100vw)" },
+        },
+        "fall": {
+          "0%": { transform: "translateY(-10px) rotate(0deg)", opacity: "1" },
+          "100%": { transform: "translateY(100vh) rotate(360deg)", opacity: "0.3" },
+        },
+        "rain-fall": {
+          "0%": { transform: "translateY(-10px)", opacity: "0.8" },
+          "100%": { transform: "translateY(100vh)", opacity: "0" },
+        },
+        "twinkle": {
+          "0%, 100%": { opacity: "1", transform: "scale(1)" },
+          "50%": { opacity: "0.3", transform: "scale(0.8)" },
+        },
+        "pulse-glow": {
+          "0%, 100%": { opacity: "0.6" },
+          "50%": { opacity: "1" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "float": "float 3s ease-in-out infinite",
+        "drift": "drift 20s linear infinite",
+        "fall": "fall 10s linear infinite",
+        "rain-fall": "rain-fall 1s linear infinite",
+        "twinkle": "twinkle 3s ease-in-out infinite",
+        "pulse-glow": "pulse-glow 2s ease-in-out infinite",
       },
     },
   },
