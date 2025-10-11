@@ -1,12 +1,18 @@
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Leaf, TreePine, Users, Trophy } from 'lucide-react';
+import WeatherWidget from '@/components/WeatherWidget';
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
       <div className="relative overflow-hidden bg-gradient-forest">
+        {/* Weather Widget in top right */}
+        <div className="absolute top-6 right-6 z-10">
+          <WeatherWidget temperature={22} weather="sunny" />
+        </div>
+        
         <div className="container mx-auto px-4 py-24 sm:py-32">
           <div className="text-center text-white">
             <div className="flex justify-center mb-6">
