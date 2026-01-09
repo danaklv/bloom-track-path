@@ -15,6 +15,7 @@ import VerifyEmail from "./pages/VerifyEmail";
 import ResetPassword from "./pages/ResetPassword";
 import Dashboard from "./pages/Dashboard";
 import EcoActions from "./pages/EcoActions";
+import EcoTest from "./pages/EcoTest";
 import Leaderboard from "./pages/Leaderboard";
 import Profile from "./pages/Profile";
 import EditProfile from "./pages/EditProfile";
@@ -42,6 +43,7 @@ const App = () => (
             {/* Protected Routes */}
             <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
             <Route path="/eco-actions" element={<ProtectedRoute><EcoActions /></ProtectedRoute>} />
+            <Route path="/eco-test" element={<ProtectedRoute><EcoTest /></ProtectedRoute>} />
             <Route path="/leaderboard" element={<ProtectedRoute><Leaderboard /></ProtectedRoute>} />
             <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
             <Route path="/profile/edit" element={<ProtectedRoute><EditProfile /></ProtectedRoute>} />
